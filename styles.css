@@ -1,0 +1,50 @@
+* {
+    font-family: 'Epilogue', sans-serif;
+    color: hsl(0, 0%, 41%);
+    font-size: 18px;
+}
+
+:root{
+    --snap-white: hsl(0, 0%, 98%);
+}
+
+.dropdown-menu {
+    border-style: none !important;
+    box-shadow: 0 2px 16px 0px rgba(0,0,0,0.52);
+}
+
+.dd-icon {
+    width: 1rem;
+}
+
+.front-page-title {
+    font-weight: 700;
+    font-size: 80px;
+    color: hsl(0, 0%, 8%);
+}
+
+@media screen and (max-width: 992px) {
+    .front-page-title {
+        font-size: 50px;
+    }
+}
+
+.btn-style {
+    --bs-btn-color: white !important;
+    --bs-btn-bg: black !important;
+    --bs-btn-hover-color: black !important;
+    --bs-btn-hover-bg: var(--snap-white) !important;
+    --bs-btn-border-color: black !important;
+    --bs-btn-hover-border-color: black !important;
+    --bs-btn-border-width: 3px !important;
+    --bs-btn-border-radius: 15px !important;
+    --bs-btn-padding-x: 2rem !important;
+}
+
+.hero-desktop {
+    width: 28rem;
+}
+
+.hero-mobile {
+    width: 90%;
+}
